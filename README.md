@@ -1,4 +1,6 @@
 # NekoBox-two-servers-in-one-config
+**Languages**: [![ru](https://img.shields.io/badge/lang-ru-red.svg)](https://github.com/gtgthozz/NekoBox-two-servers-in-one-config/blob/main/README-ru.md)
+
 Using 2 servers in the same configuration with different routing rules. It will be useful if you have 2 servers, but you don't want to switch between them all the time. 
 
 The previous approach turned out to have far more issues than I expected. So I found two more options.
@@ -145,3 +147,5 @@ And this is in my basic routes (again, I’m using `rules` from the GUI):
     "rule_set": "antizapret"
 },
 ```
+
+### [Example config and base routes](https://github.com/gtgthozz/NekoBox-two-servers-in-one-config/blob/main/Example%20of%20additional%20config%20settings%20and%20basic%20routes%20for%202%20proxies%20in%20one%20profile%20%2B%20a%20rule%20set%20with%20an%20Antizapret%20database%20(rule_set).json)
