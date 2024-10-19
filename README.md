@@ -120,7 +120,7 @@ Just to mention, `"final": "bypass"` in `rules` is the "Default outbound" from t
 **Pros**: Compared to adding a sing-box config I manually created last time (not the first option), traffic counting works in the GUI here, and switching between TUN mode and system proxy mode now works.  
 **Cons**: Compromises with routing settings. The GUI doesn’t natively support this, so it’s a workaround.
 
-**Bonus**: The Antizapret geo-database loaded from GitHub (sometimes gives a timeout and doesn’t let the profile start :/).
+**Bonus**: The Antizapret geo-database loaded from GitHub (sometimes gives a timeout and doesn’t let the profile start :/). Need beta V4 and higher.
 
 This chunk is inserted into the Additional config settings:
 
