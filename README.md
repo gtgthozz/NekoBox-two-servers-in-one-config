@@ -150,4 +150,5 @@ And this is in my basic routes (again, I’m using `rules` from the GUI):
 
 ### [Example config and base routes](https://github.com/gtgthozz/NekoBox-two-servers-in-one-config/blob/main/Example%20of%20additional%20config%20settings%20and%20basic%20routes%20for%202%20proxies%20in%20one%20profile%20%2B%20a%20rule%20set%20with%20an%20Antizapret%20database%20(rule_set).json)
 
-[![en](https://img.shields.io/badge/Google_Docs-en-white.svg)](https://docs.google.com/document/d/e/2PACX-1vT4MMzIPlGMxdVmvySx4C-QZKT9EO5XQAISCwZAT0zQznfqmYDlzjnJomhzaDTPrZMKhGWIjQWZwcyc/pub)
+---
+Mirror: [![en](https://img.shields.io/badge/Google_Docs-en-white.svg)](https://docs.google.com/document/d/e/2PACX-1vT4MMzIPlGMxdVmvySx4C-QZKT9EO5XQAISCwZAT0zQznfqmYDlzjnJomhzaDTPrZMKhGWIjQWZwcyc/pub)
