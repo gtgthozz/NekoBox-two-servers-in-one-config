@@ -1,0 +1,113 @@
+// Доп. Настройки конфига / Additional Config settings:
+{
+    "outbounds": [
+        {
+            "domain_strategy": "",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "",
+            "server": " IP OR DOMAIN ",
+            "server_port": 443,
+            "tag": "proxy",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": " TEXT ",
+                    "short_id": " TEXT "
+                },
+                "server_name": "telegram.org",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "uuid": "66600rnd-5ddf-1234-a123-1234abscdg2"
+        },
+        {
+            "domain_strategy": "",
+            "flow": "",
+            "packet_encoding": "",
+            "server": " IP OR DOMAIN ",
+            "server_port": 8080,
+            "tag": "PROXY-2",
+            "tls": {
+                "enabled": true,
+                "reality": {
+                    "enabled": true,
+                    "public_key": " TEXT2 ",
+                    "short_id": " TEXT2 "
+                },
+                "server_name": " TEXT2 ",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "type": "vless",
+            "uuid": "77700rnd-1234-1234-a123-1234abscdg2"
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        }
+    ],
+    "route": {
+        "rule_set": [
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "antizapret",
+                "type": "remote",
+                "url": "https://github.com/savely-krasovsky/antizapret-sing-box/releases/latest/download/antizapret.srs"
+            }
+        ]
+    }
+}
+
+
+
+
+// Основные настройки -> Настройки маршрутов -> Базовые маршруты -> Кастомные маршруты / Basic settings -> Route settings -> Basic routes -> Custom routes:
+{
+    "rules": [
+        {
+            "outbound": "proxy",
+            "rule_set": "antizapret"
+        },
+        {
+            "domain_suffix": [
+                ".su"
+            ],
+            "outbound": "direct"
+        },
+        {
+            "domain_keyword": [
+                "discord"
+            ],
+            "domain_suffix": [
+                ".ua"
+            ],
+            "outbound": "proxy"
+        },
+        {
+            "domain_suffix": [
+                "domain.name.com",
+                "domain.name2.com"
+            ],
+            "outbound": "PROXY-2"
+        }
+    ]
+}
