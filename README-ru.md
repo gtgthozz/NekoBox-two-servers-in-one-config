@@ -150,3 +150,5 @@
 ```
 
 ### [Пример конфига и базовых маршрутов](https://github.com/gtgthozz/NekoBox-two-servers-in-one-config/blob/main/Example%20of%20additional%20config%20settings%20and%20basic%20routes%20for%202%20proxies%20in%20one%20profile%20%2B%20a%20rule%20set%20with%20an%20Antizapret%20database%20(rule_set).json)
+
+[![ru](https://img.shields.io/badge/Google_Docs-ru-white.svg)](https://docs.google.com/document/d/e/2PACX-1vSGGOEIlE-jXbRenm_tiZg7-6oizadGQ8tjbPx4ozb2gg0sSsRkivzunSF1xnZpBEiwZJtkzRGKhLSu/pub)
